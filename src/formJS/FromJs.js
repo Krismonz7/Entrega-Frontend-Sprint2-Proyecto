@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { Form } from 'react-bootstrap'
-import { DivForm,FormStyle,Cajita,Titulo,RadioStyle,ButtonStyle,Imagen} from './CardQuestion'
-import {questionGeek} from './QuestionarioHTML'
+import { DivForm,FormStyle,Cajita,Titulo,RadioStyle,ButtonStyle,Imagen} from './JsQuestion'
+import {questionGeek} from './QuestionarioJs'
 import imagen1 from '../images/persona1.png'
 import imagen2 from '../images/persona2.png'
 import imagen3 from '../images/persona3.png'
 import imagen4 from '../images/persona4.png'
-export default class Question extends Component {
+export default class QuestionJS extends Component {
   constructor() {
       super();
       this.state = {

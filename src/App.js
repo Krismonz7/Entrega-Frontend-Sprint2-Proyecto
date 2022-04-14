@@ -1,11 +1,11 @@
 import {Containerprincipal} from './container/conatiner';
-import Question from "./formHTML/FormHTML";
+import QuestionJS from "./formJS/FromJs";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Question /> 
+      <QuestionJS /> 
     </div>
   );
 }
