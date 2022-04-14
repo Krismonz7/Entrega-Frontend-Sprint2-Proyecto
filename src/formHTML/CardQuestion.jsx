@@ -3,7 +3,7 @@ import { Form } from 'react-bootstrap'
 import styled from 'styled-components'
     /*Estilos de los componentes*/
     const DivForm = styled.div`
-    background-image: linear-gradient(315deg,#b8c6db 0%,#f5f7fa 100%);
+    background-image: linear-gradient(315deg,#505050 0%,#333333 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,14 +16,19 @@ import styled from 'styled-components'
     width: 600px;
     box-shadow: 0 6px 6px rgba(0,0,0,0.2);
     color: white;
+    display: flex;
+    flex-direction: column;
+    margin:10vh auto;
     `
 
     const Titulo =  styled.h2`
     padding: 1rem;
     text-align: center;
     margin: 0;
-    width: 50%;
+    width: 60%;
+    min-width: 100px;
     margin: auto;
+    border:2px solid  cyan;
     `
     const Cajita =  styled.div`
       display: flex;
@@ -31,8 +36,10 @@ import styled from 'styled-components'
     `
 
     const Imagen=styled.img`
-    width: 25%;
-    height: 40%;
+    width:25%;
+    min-width:100px;
+    height:40%;
+    min-height:200px;
     margin: auto;
     border: 2px solid cyan ;
     `
@@ -41,21 +48,25 @@ import styled from 'styled-components'
     padding: 0;
     font-size: 1.2rem;
     margin:1rem 0;
+    border: 2px solid white;
+    width: 80%;
     `
 
     const ButtonStyle =  styled.button`
     background-color: #8400ff;
     border:none;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     font-size: 1.1rem;
     padding: 1.1rem;
     color: white;
+    border-radius: 10px;
     &:hover{
-      background: #00ffd0;
+      background: #6200ff;
     }
     &:focus{
       outline: none;
-      background-color: #00ffae;
+      background-color: #350085;
     }
 
     `

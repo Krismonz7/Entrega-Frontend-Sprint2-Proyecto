@@ -18,10 +18,10 @@ export const questionGeek = [
     {
         question: "¿Que es HTML?",
         a: "Lenguaje de Alto nivel",
-        b: "Lenguaje de Bajo nivel",
+        b: "Lenguaje de etiquetas e hipertexto",
         c: "Operador",
-        d: "Lenguaje de etiquetas de hipertexto",
-        corrrect: "Lenguaje de etiquetas de hipertexto"
+        d: "Lenguaje de Bajo nivel",
+        corrrect: "Lenguaje de etiquetas e hipertexto"
     },
     {
         question: "¿Funcionan los archivos HTML más antiguos en los navegadores más nuevos?",
