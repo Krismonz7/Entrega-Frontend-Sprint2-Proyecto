@@ -74,6 +74,7 @@ export default class Question extends Component {
                       <Imagen src={imagen3} alt=''/>
                       <Titulo>{this.state.question.question}</Titulo>
                       </Cajita>
+                      
                       <RadioStyle
                           type="radio"
                           label={this.state.question.a}
@@ -82,6 +83,7 @@ export default class Question extends Component {
                           id={`respuesta1`}
                           onChange={this.onChanged}
                       />
+                      
                       <RadioStyle
                           type="radio"
                           label={this.state.question.b}
