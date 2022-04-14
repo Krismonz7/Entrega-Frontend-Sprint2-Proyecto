@@ -25,10 +25,10 @@ export const questionGeek = [
     },
     {
         question: "¿Es posible dividir el código JavaScript en varias líneas?",
-        a: "Si",
+        a: "No",
         b: "Puede ser",
         c: "Masomenos",
-        d: "No",
+        d: "Si",
         corrrect: "Si"
     },
     {
