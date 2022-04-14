@@ -28,7 +28,6 @@ import styled from 'styled-components'
     width: 60%;
     min-width: 100px;
     margin: auto;
-    border:2px solid  cyan;
     `
     const Cajita =  styled.div`
       display: flex;
@@ -41,15 +40,18 @@ import styled from 'styled-components'
     height:40%;
     min-height:200px;
     margin: auto;
-    border: 2px solid cyan ;
     `
 
     const RadioStyle=styled(Form.Check)`
     padding: 0;
     font-size: 1.2rem;
-    margin:1rem 0;
-    border: 2px solid white;
-    width: 80%;
+    margin:1rem auto;
+    border: 2px solid  #ffffff;
+    width: 100%;
+    &:hover{
+      border: 2px solid  #60ff7b;
+      font-size:1.5rem ;
+    }
     `
 
     const ButtonStyle =  styled.button`
@@ -68,9 +70,6 @@ import styled from 'styled-components'
       outline: none;
       background-color: #350085;
     }
-
     `
-
-
 
     export {ButtonStyle,DivForm,RadioStyle,Titulo,FormStyle,Imagen,Cajita}
