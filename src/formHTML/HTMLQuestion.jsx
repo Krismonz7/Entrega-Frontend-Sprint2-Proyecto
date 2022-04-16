@@ -73,3 +73,4 @@ import styled from 'styled-components'
     `
 
     export {ButtonStyle,DivForm,RadioStyle,Titulo,FormStyle,Imagen,Cajita}
+    

@@ -71,7 +71,7 @@ export default class Question extends Component {
               <FormStyle onSubmit={this.handleSubmit}>
                   <Form.Group className="mb-3" controlId="control-radio" style={{ padding: "4rem" }}>
                       <Cajita>
-                      <Imagen src={imagen3} alt=''/>
+                      <Imagen src={imagen4} alt=''/>
                       <Titulo>{this.state.question.question}</Titulo>
                       </Cajita>
                       
