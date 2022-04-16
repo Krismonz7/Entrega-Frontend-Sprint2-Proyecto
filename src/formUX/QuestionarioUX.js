@@ -1,42 +1,38 @@
 export const questionGeek = [
     {
-        question: "¿Qué es JavaScript?",
-        a: "Lenguaje Interpretado",
-        b: "Pataforma de desarrollo",
-        c: "Gestin de bases de datos",
-        d: "Lenguaje Binario",
-        corrrect: "Lenguaje Interpretado"
-    },
-    {
-        question: "¿Son Java y Java script lo mismo?",
-        a: "Si",
-        b: "Puede ser",
-        c: "Masomenos",
-        d: "No",
-        corrrect: "No"
-    },
-    {
-        question: "¿Cuales son los principales tipo de datos en Javascript?",
-        a: "String, booleano, Objeto, Número, Indefinido",
-        b: "Array, DateTime, Time, Math.Round()",
-        c: "Fetch, Api , Header, TimeOuth()",
-        d: "Nunguna de las anteriores",
-        corrrect: "String, booleano, Objeto, Número, Indefinido"
-    },
-    {
-        question: "¿Es posible dividir el código JavaScript en varias líneas?",
-        a: "No",
-        b: "Puede ser",
-        c: "Masomenos",
-        d: "Si",
-        corrrect: "Si"
-    },
-    {
-        question: "¿Qué empresa desarrolló JavaScript?",
-        a: "Mojan",
-        b: "Apple",
-        c: "Netscape",
-        d: "JavaSoft",
-        corrrect: "Netscape"
+        question: "¿Que significael término “Design Thinking”?",
+        a: "Pensamiento de diseño",
+        b: "Pensamiento de desarrollo",
+        c: "Gestion de bases de desarrollo",
+        d: "Desarrollo de lenguaje",
+        corrrect: "Pensamiento de diseño"
+    },{
+        question: "¿Que significa el término UX?",
+        a: "Pensamiento de diseño",
+        b: "Experiencia de usuario",
+        c: "Desarrollo de lenguaje",
+        d: "Gestion de desarrollo",
+        corrrect: "Experiencia de usuario"
+    },{
+        question: "¿Para que sirve el UX?",
+        a: "Optimizar la interaccion de los usuarios con el entorno web",
+        b: "Mejorar la visualizacion y dinamicas manejadas en el entorno web",
+        c: "Maximizar las ventajas con la interaccion en cada dispositivo",
+        d: "Todas las anteriores",
+        corrrect: "Todas las anteriores"
+    },{
+        question: "¿Quien creo el UX?",
+        a: "Oliver Connor",
+        b: "Harry Callum",
+        c: "Donald Norman",
+        d: "Steve Jobs",
+        corrrect: "Donald Norman"
+    },{
+        question: "¿En que decada se creo el UX?",
+        a: "Decada de los 90",
+        b: "Decada de los 60",
+        c: "Decada de los 80",
+        d: "Decada de los 70",
+        corrrect: "Decada de los 90"
     }
 ]

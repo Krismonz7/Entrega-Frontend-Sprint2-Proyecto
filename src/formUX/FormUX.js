@@ -8,7 +8,7 @@ import imagen3 from '../images/persona3.png'
 import imagen4 from '../images/persona4.png'
 export default class QuestionUX extends Component {
   constructor() {
-      super();
+      super(); 
       this.state = {
           numberQuestion: 0,
           question: {
