@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Form } from 'react-bootstrap'
-import { DivForm,FormStyle,Cajita,Titulo,RadioStyle,ButtonStyle,Imagen} from './CardQuestion'
+import { DivForm,FormStyle,Cajita,Titulo,RadioStyle,ButtonStyle,Imagen} from './HTMLQuestion'
 import {questionGeek} from './QuestionarioHTML'
 import imagen1 from '../images/persona1.png'
 import imagen2 from '../images/persona2.png'
