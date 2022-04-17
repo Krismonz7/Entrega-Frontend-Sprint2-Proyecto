@@ -1,11 +1,11 @@
 import {Containerprincipal} from './container/conatiner';
-import QuestionUX from './formUX/FormUX';
+import QuestionCSS from './formCSS/FormCSS'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <QuestionUX/> 
+      <QuestionCSS/>
     </div>
   );
 }
