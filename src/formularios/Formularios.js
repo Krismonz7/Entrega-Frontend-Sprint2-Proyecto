@@ -8,7 +8,21 @@ import FIGMA from '../images/FIGMA.png'
 import UX from '../images/UX3.jpg'
 
 export const Formularios =()=>{
-
+  const RedirijeHTML = ()=>{
+    window.location.href='/FormularioHTML'
+  }
+  const RedirijeCSS = ()=>{
+    window.location.href='/FormularioCSS'
+  }
+  const RedirijeFigma = ()=>{
+    window.location.href='/FormularioFigma'
+  }
+  const RedirijeJS = ()=>{
+    window.location.href='/FormularioJS'
+  }
+  const RedirijeUX = ()=>{
+    window.location.href='/FormularioUX'
+  }
   return (
     <div className='contenedor'>
       <Nav className='menu'>
