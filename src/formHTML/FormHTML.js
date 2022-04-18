@@ -5,7 +5,7 @@ import {questionGeek} from './QuestionarioHTML'
 import imagen1 from '../images/persona1.png'
 import imagen2 from '../images/persona2.png'
 import imagen3 from '../images/persona3.png'
-import imagen4 from '../images/persona4.png'
+import imagen4 from '../images/persona4.png'  
 export default class QuestionHTML extends Component {
   constructor() {
       super();
@@ -31,10 +31,10 @@ export default class QuestionHTML extends Component {
           question: {
               question: currentQuizData.question,
               a: currentQuizData.a,
-              b: currentQuizData.b,
+              b: currentQuizData.b,  
               c: currentQuizData.c,
               d: currentQuizData.d,
-              correct: currentQuizData.corrrect
+              correct: currentQuizData.corrrect 
           }
       })
   }
