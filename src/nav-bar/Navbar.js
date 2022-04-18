@@ -1,7 +1,7 @@
 import React from 'react'
 import './stylesNav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faHome,faStairs,faUser } from '@fortawesome/free-solid-svg-icons'
 
 export const Navbar = () => {
   return (
@@ -12,8 +12,16 @@ export const Navbar = () => {
         <FontAwesomeIcon icon={faHome} />
         </div>
         Home</li>
-      <li className='iconos'>Estadisticas</li>
-      <li className='iconos'>Perfil</li>
+      <li className='iconos'>
+      <div className='imagenNav'>
+        <FontAwesomeIcon icon={faStairs} />
+        </div>
+        Estadisticas</li>
+      <li className='iconos'>
+      <div className='imagenNav'>
+        <FontAwesomeIcon icon={faUser} />
+        </div>
+        Perfil</li>
     </ul>
     </>
   )
