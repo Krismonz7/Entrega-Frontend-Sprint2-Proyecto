@@ -8,6 +8,7 @@ import Containerprincipal from '../container/conatiner'
 import {BrowserRouter as Router,
   Route,
   Routes} from "react-router-dom";
+  
 export default function Rutas() {
   return (
     <Router>
