@@ -27,35 +27,35 @@ export const Formularios =()=>{
     <div className='contenedor'>
       <Nav className='menu'>
 
-        <div className='item' >
+        <div className='item' onClick={RedirijeHTML}>
           HTML
           <div className='imagen'>
           <img src={HTML} alt=''/>
           </div>
         </div>
 
-        <div className='item'>
+        <div className='item' onClick={RedirijeCSS}>
           CSS
           <div className='imagen'>
           <img src={CSS} alt=''/>
           </div>
         </div>
 
-        <div className='item'>
+        <div className='item' onClick={RedirijeJS}>
           JS
           <div className='imagen'>
           <img src={JS} alt=''/>
           </div>
         </div>
 
-        <div className='item'>
+        <div className='item' onClick={RedirijeFigma}>
           FIGMA
           <div className='imagen'>
           <img src={FIGMA} alt=''/>
           </div>
         </div>
 
-        <div className='item'>
+        <div className='item' onClick={RedirijeUX}>
           UX
           <div className='imagen'>
           <img src={UX} alt=''/>

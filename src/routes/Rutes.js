@@ -11,8 +11,6 @@ import {BrowserRouter as Router,
 export default function Rutas() {
   return (
     <Router>
-      Hola Shavales...
-      <hr/>
       <Routes>
         <Route path='/FormularioHTML' element={<QuestionHTML/>} />
         <Route path='/FormularioCSS' element={<QuestionCSS/>} />
