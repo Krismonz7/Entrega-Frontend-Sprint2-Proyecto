@@ -5,9 +5,7 @@ import QuestionUX from '../formUX/FormUX'
 import QuestionJS from '../formJS/FormJs'
 import QuestionFigma from '../formFigma/FormFigma'
 import Containerprincipal from '../container/conatiner'
-import {BrowserRouter as Router,
-  Route,
-  Routes} from "react-router-dom";
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
   
 export default function Rutas() {
   return (
